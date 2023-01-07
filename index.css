@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;width:auto;
+    height:60px;
+    padding: 35px,0;
+    background: wheat;
+    border-radius: 0px 0px 20px 20px ;
+    border-color: black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.logo{
+    margin-left: 1%;
+}
+.navbar_row a{
+    
+    text-decoration: none;
+    color:green;
+    font-weight: bolder;
+    
+
+}
+
+.navbar_row ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin:0 20px;
+    font-family: 'Fredoka One', cursive;
+    
+}
+.navbar_row ul li a:hover{
+    color:BLACK;  
+}
+.text{
+    font-size:30px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bolder;
+    color: brown;
+    margin-left: 10%;
+}
+.text:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease ;
+    cursor: pointer;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url(images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.donate{
+ 
+    height:200px;
+    width:450px;
+    margin-left:60%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+.d{
+    font-family: 'Fredoka One', cursive;
+    background-color: wheat;
+    border-radius: 100px 0 100px 0px;
+    box-shadow: 2px 2px 2px black;
+    position: absolute;
+    color:Green;
+    margin-left:-58%;
+    margin-top: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    overflow: hidden;
+    height: 120px;
+    width: 270px;
+    position:absolute;
+    
+}
+.d:hover{
+
+    transition:all  0.5s ease;
+    transform: scale(1.3);
+    cursor:pointer;
+
+}
+
+.slogan{
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+    text-shadow: 0px 1px 0px black;
+    margin-left: 50%;
+    margin-top:20%;
+    color:wheat;
+    position:absolute
+    
+}
